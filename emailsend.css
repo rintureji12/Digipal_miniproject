@@ -1,0 +1,130 @@
+body{
+	background-image: url("Lib3.jpg");
+}
+form{
+	background-color: #f1ecec;
+   width: 500px;
+   height: 300px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   border:5 solid ;
+   }
+table{
+	background-color: #ffffff;
+   width: 500px;
+   height: 450px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   border:5 solid ; 
+   }
+   
+ /* Wonder */
+h1.w{
+    color:  black;
+	font-family:Algerian;
+	font-size: 60px;
+	text-align: center;
+	vertical-align:-20px;
+	  margin-left: auto;
+   margin-right: auto;
+}
+
+td.w{
+     height: 1px;
+	 line-height:10px;
+}
+
+/* Sign in heading */
+td.wn{
+	font-family:Algerian;
+     height: 1px;
+	 line-height:2px;
+	  padding: 0px 0px;
+}
+h2.sn{
+	font-size: 25px;   
+	text-align: center;
+
+}
+td.mob{
+      height: 1px;
+	 line-height:2px;
+     font-size: 22px;
+	 text-align: center;
+}
+
+/* Number, mail and password box */
+input[type=text],input[type=password]  {
+  width: 75%;
+  padding: 15px 20px;
+  margin: .5px 0;
+  display: inline-block;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.col1
+{
+      width: 85%;
+	 /* padding: 12px 20px;*/
+  margin: 7px 0;
+ /* display: inline-block;*/
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 2px;
+  box-shadow:20px 20px 70px grey; 
+  
+
+}
+
+
+/* password */
+td.psw
+{
+ height: 2px;
+	 line-height:10px;
+	  padding: 5px;
+	  box-sizing: border-box;
+	
+}
+
+
+/* Create wonder account */
+button{
+	background-color: white;
+	color: #2c3e50;
+	font-size:20px;
+	font-family:Titillium Web;
+	padding: 15px 20px;
+	margin: 5px 0 200px 0;
+	border: 1px solid #566573;
+	cursor: pointer;
+	width:50%;
+	opacity: 0.9;
+}
+button:hover{
+	background-color: #0048a7 ;
+	opacity:0.5;
+}
+
+/* Change*/
+input.sg{
+	background-color: #0152e9;
+	color: white;
+	font-size:20px;
+	font-family:Titillium Web;
+	padding: 10px 30px;
+	margin: 2px 0;
+	border: 1px solid  #005bb6;
+	cursor: pointer;
+	width:50%;
+	opacity: 0.9;
+}
+
+input.sg:hover{
+		opacity:0.8;
+		background-color: #0516b1 ;
+}
+
+

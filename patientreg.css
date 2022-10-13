@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+  }
+  
+  html,body{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    
+    transform: translate(-50%,-50%);
+    background: #E0E0E0;
+    /* height:100px; */
+    
+  }
+  .login-page{
+    /* margin-top:100% ;
+    padding-top: 100%; */
+    margin-bottom: 20%;
+    background: #E0E0E0;
+    
+    width: 400px;
+    padding: 30px;
+    box-shadow: -3px -3px 7px #fff,
+                3px 3px 5px rgba(94,104,121,0.288);
+  }
+  .login-page input,select{
+    margin: 20px;
+  }
+  /* .login-page input[type="text"],input[type="email"],input[type="password"],input[type="tel"],
+  input[type="radio"]{
+    width: 90%;
+    height: 45px;
+    outline: none;
+    border: 0;
+    padding: 14px;
+    background: #E0E0E0;
+    font-size: 16px;
+    border-radius: 30px;
+    box-shadow: inset -3px -3px 7px #fff,
+                inset 3px 3px 5px rgba(94,104,121,0.288);
+  } */
+  .login-page input,select{
+    width: 90%;
+    height: 45px;
+    outline: none;
+    border: 0;
+    padding: 14px;
+    background: #E0E0E0;
+    font-size: 16px;
+    border-radius: 30px;
+    box-shadow: inset -3px -3px 7px #fff,
+                inset 3px 3px 5px rgba(94,104,121,0.288);
+  }
+  .login-page input[type="submit"]{
+    width: 100px;
+    background:blue;
+    border: 0;
+    outline: 0;
+    margin-left: 65%;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    height: 45px;
+    border-radius: 5px;
+    
+  }
+
+  select,input{
+    color:grey;
+  }
+ 

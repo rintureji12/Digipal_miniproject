@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function addIllness(val){
+         var element=document.getElementById('illness');
+         if(val=='others')
+           element.style.display='block';
+         else  
+           element.style.display='none';
+        }
+        function validateFileType(){
+                var fileName = document.getElementById("fileName").value;
+                var idxDot = fileName.lastIndexOf(".") + 1;
+                var extFile = fileName.substr(idxDot, fileName.length).toLowerCase();
+                if (extFile=="jpg" || extFile=="jpeg" || extFile=="png"){
+                    //TO DO
+                }else{
+                    document.getElementById("fileName").value=null;
+                    alert("Only jpg/jpeg and png files are allowed!");
+                }   
+            }
+        </script> 
+</head>
+<body>
+    <form>
+        <input type="file"  class="form-control" id="fileName" name="uploadfile" accept="image/png, image/jpeg" onchange="validateFileType()" required >
+    <input type="submit"  class="form-control btn btn-primary mt-3" name="upload" value="Register" required>
+    </form>
+    
+</body>
+</html>
